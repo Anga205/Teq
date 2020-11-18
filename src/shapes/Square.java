@@ -8,12 +8,12 @@ public class Square extends Shape {
 	
 	@Override
 	public int area() {
-		return 4 * getLength();
+		return (int) Math.pow(getLength(), 2);
 	}
 
 	@Override
 	public int perimeter() {
-		return (int) Math.pow(getLength(), 2);
+		return 4 * getLength();
 	}
 
 }
